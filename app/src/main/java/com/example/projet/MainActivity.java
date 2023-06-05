@@ -21,9 +21,7 @@ import com.example.projet.ml.FruitClassifier;
 
 import org.tensorflow.lite.DataType;
 import org.tensorflow.lite.support.image.TensorImage;
-import org.tensorflow.lite.support.tensorbuffer.TensorBuffer;
 
-import java.io.File;
 import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
@@ -40,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
     private Button camera;
     private Button galery;
     private Button inf;
-    private ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
         camera = findViewById(R.id.сamera);
         galery = findViewById(R.id.galery);
         inf = findViewById(R.id.inf);
-        imageView = findViewById(R.id.imageView);
 
         camera.setOnClickListener(new View.OnClickListener() {                                                      //камера
             @Override
@@ -223,7 +219,6 @@ public class MainActivity extends AppCompatActivity {
             }
 
             switch (maxProbIndex) {
-                //TODO: яблоко - хз, лимон - груша, банан - банан, хз - авокадо,
                 case 0:
                     // Вывод текста "Яблоко"
                     Toast.makeText(MainActivity.this, "Авокадо", Toast.LENGTH_SHORT).show();
