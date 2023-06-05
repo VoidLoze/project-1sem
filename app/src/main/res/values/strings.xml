@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Projeсt</string>
+    <string name="Camera">Камера</string>
+    <string name="gallery">Галерея</string>
+    <string name="inf">Информация</string>
+    <string name="Avokado">Авокадо</string>
+    <string name="Apple">Яблоко</string>
+    <string name="Limon">Лимон</string>
+    <string name="Banan">Банан</string>
+    <string name="Pear">Груша</string>
+
+</resources>

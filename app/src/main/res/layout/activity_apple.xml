@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".apple">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="330dp"
+        android:layout_height="308dp"
+        android:layout_marginTop="105dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/co" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="195dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/Apple"
+        android:textColor="@color/okkk"
+        android:textSize="37sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:layout_marginBottom="12dp"
+        android:text="Калории ккал:47 белки.\nг:0,4 Жиры г.0,4 Углероды г.9,8\n Яблоки содержат ряд витаминов:\n и микроэлементов, повышающих\n‘иммунитет и улучшающих работу\nсердечно- сосудистой системы:\n например, витамин С,\n каротиноиды. фолиевую кислоту.\n магний. железо ит.д Наконец в\n яблоке много пищевых волокон — \n клетчатки, которая обогащает \n 'наш рацион и заставляет \n работать кишечник"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="fill_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

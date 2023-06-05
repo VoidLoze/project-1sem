@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Banana">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="180dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/Banan"
+        android:textColor="@color/okkk"
+        android:textSize="37sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="313dp"
+        android:layout_height="343dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="fill_horizontal"
+        android:text="Калории ккал 95 Белки, г 15\nЖиры, г: 0:2 Углеводы, г: 218\nБананы отлично подходят в\nкачестве перекуса, их можно\nдобавлять в утренние блюда.\nкоктейли и смузи. печь из них\nкексы. Они богаты витаминами А.\n86. С.Е и К, атакже считаются\nхорошим источником кальция.\nфосфора. магния, калия и натрия\n- борьбы с анемией;\n- снижают уровень «плохого»\nхолестерина (ЛПНП};\n- бананы «умеют» улучшать\nнастроение. в этом помогает\nсодержащийся в них триптофан\nпредшественник «гормона\nсчастья» серотонина"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="303dp"
+        android:layout_height="436dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/banana" />
+</androidx.constraintlayout.widget.ConstraintLayout>
