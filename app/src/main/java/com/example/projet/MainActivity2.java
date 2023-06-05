@@ -24,7 +24,7 @@ public class MainActivity2 extends AppCompatActivity {
         apple = findViewById(R.id.apple);
         limon = findViewById(R.id.limon);
         banana = findViewById(R.id.banan);
-        pear = findViewById(R.id.pear);
+
 
         avokado.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,14 +54,6 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent  = new Intent(MainActivity2.this, Banana.class);
-                startActivities(new Intent[]{intent});
-            }
-        });
-
-        pear.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent  = new Intent(MainActivity2.this, Pear.class);
                 startActivities(new Intent[]{intent});
             }
         });

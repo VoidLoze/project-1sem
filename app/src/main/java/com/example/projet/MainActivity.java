@@ -169,12 +169,12 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(MainActivity.this, "Банан", Toast.LENGTH_SHORT).show();
                             break;
                         case 2:
-                            // Вывод текста "Груша"
-                            Toast.makeText(MainActivity.this, "Груша", Toast.LENGTH_SHORT).show();
+                            // Вывод текста "Авокадо"
+                            Toast.makeText(MainActivity.this, "Авокадо", Toast.LENGTH_SHORT).show();
                             break;
                         case 3:
-                            // Вывод текста "хз"
-                            Toast.makeText(MainActivity.this, "Хз", Toast.LENGTH_SHORT).show();
+                            // Вывод текста "Лимон"
+                            Toast.makeText(MainActivity.this, "Лимон", Toast.LENGTH_SHORT).show();
                             break;
                     }
 
