@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pear">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="322dp"
+        android:layout_height="436dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pear" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="217dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/Pear"
+        android:textColor="@color/okkk"
+        android:textSize="37sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-100dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="fill_horizontal"
+        android:text="Калории, ккал: 42 Белки, г: 0.4 \n Жиры г:0,3 Углеводы, г: 10,9\nПолезны в качестве\nпрофилактики появления\nхолестериновых бляшек и\nатеросклероза (клетчатка\nснижает уровень холестерина в\nкрови), имеют мочегонное\nдействие. участвуют в\nкроветворении, выводят из\nорганизма токсины и шлаки\n  Груша благотворно влияет на\nмикрофлору кишечника,\nулучшает пищеварение и обмен\nвеществ."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+</androidx.constraintlayout.widget.ConstraintLayout>
